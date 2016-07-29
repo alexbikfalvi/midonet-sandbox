@@ -1,0 +1,5 @@
+tools:
+  image: sandbox/midonet-tools
+  privileged: true
+  volumes:
+  - /etc/localtime:/etc/localtime:ro
